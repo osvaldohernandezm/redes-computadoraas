@@ -1,0 +1,107 @@
+0	reserved	udp/tcp
+1	tcpmux		tcp		#TCP port service multiplexer
+2	compressnet	udp/tcp		managemen utili
+3	compressnet	udp/tcp		Compression Process
+4	nassigned	udp/tcp
+5	rje		udp/tcp		Remote Job Entry
+6	unassigned	udp/tcp
+7	echo            udp/tcp
+8	Unassigned	udp/tcp
+9	discard         udp/tcp		sink null
+10	Unassigned	udp/tcp
+11	systat         	tcp		users
+12	Unassigned	udp/tcp
+13	daytime         udp/tcp
+14	Unassigned	udp/tcp
+15	netstat         tcp
+16	Unassigned	udp/tcp
+17	qotd            tcp          	quote
+18	msp		udp/tcp         #message send protocol
+19	chargen         udp/tcp		ttytst source
+20	ftp-data	tcp
+21	ftp             udp/tcp		fsdp
+22	ssh		udp/tcp		#SSH Remote Login Protocol
+23	telnet		tcp
+24			udp/tcp		any private mail system
+25	smtp            tcp		mail
+26	unassigned	udp/tcp
+27	nsw-fe		udp/tcp		NSW User System FE
+28	unassigned	udp/tcp
+29	msg-icp		udp/tcp		msg-icp
+30	unassigned	udp/tcp
+31	msg-auth	udp/tcp		MSG Authentication
+32	unassigned	udp/tcp
+33	dsp		udp/tcp		Display Support Protocol
+34	unassigned	udp/tcp
+35			udp/tcp		any private printer server
+36	unassigned	udp/tcp
+37	time            udp/tcp		timserver
+38	rap		udp/tcp		Route Access Protocol
+39	rlp             udp          	resource location
+40	unsigned	udp/tcp
+41	graphics	udp/tcp		graphics
+42	nameserver      tcp          	name IEN 116
+43	hois           	tcp          	nicname
+44	mpm-flags	udp/tcp		MPM FLAGS Protocol
+45	mpm		udp/tcp		Message Processing Module recv
+46	mpm-snd		tcp		MPM default send
+49	tacacs		udp/tcp		Login Host Protocol (TACACS)
+50	re-mail-ck	udp/tcp		Remote Mail Checking Protocol
+53	domain          udp/tcp		Domain Name Server
+57	mtp             tcp		deprecated
+65	tacacs-ds      	udp/tcp		TACACS-Database Service
+67	bootps          udp/tcp		BOOTP server
+68	bootpc          udp/tcp		BOOTP client
+69	tftp            udp
+70	gopher          udp/tcp		Internet Gopher
+77	rje             tcp		netrjs
+79	finger          tcp
+80	http		udp/tcp		WorldWideWeb
+87	link		tcp		ttylink
+88	kerberos	udp/tcp		kerberos5 krb5 kerberos-se
+95	supdup		tcp
+101	hostnames	tcp		hostname usually from sri-nic
+102	iso-tsap	tcp		tsap part of ISODE
+104	acr-nema        udp/tcp         dicom Digital Imag Comm 300
+105	csnet-ns        udp/tcp         cso-ns also used by CSO name server
+107	rtelnet         udp/tcp		Remote Telnet
+109	pop2            udp/tcp         postoffice pop-2 POP version 2 pop-2
+110	pop3            udp/tcp         pop-3 POP version 3
+111	sunrpc          udp/tcp         portmapper RPC 4 portmapper
+113	auth            tcp		authentication tap ident
+115	sftp            tcp
+117	uucp-path       tcp
+119	nntp            tcp		readnews untp USENET News Transfer Protocol
+123	ntp             udp/tcp		Network Time Protocol
+129	pwdgen          udp/tcp		PWDGEN service
+135	loc-srv         udp/tcp         epmap Location Service
+137	netbios-ns      udp/tcp         NETBIOS Name Service
+138	netbios-dgm 	udp/tcp        	NETBIOS Datagram Service
+139	netbios-ssn     udp/tcp		NETBIOS session service
+143	imap2           udp/tcp         imap Interim Mail Access P 2 and 4
+161	snmp            udp/tcp		Simple Net Mgmt Protocol
+162	snmp-trap       udp/tcp         snmptrap Traps for SNMP
+163	cmip-man        udp/tcp		ISO mgmt over IP (CMOT)
+164	cmip-agent      udp/tcp
+174	mailq           udp/tcp		Mailer transport queue for Zmailer
+177	xdmcp           udp/tcp		X Display Mgr. Control Proto
+178	nextstep        udp/tcp		NeXTStep server NeXTStep window
+179	bgp            	udp/tcp		Border Gateway Protocol
+191	prospero        udp/tcp		Cliff Neumans Prospero
+194	irc		udp/tcp		Internet Relay Chat
+199	smux            udp/tcp		SNMP Unix Multiplexer
+201	at-rtmp         udp/tcp		AppleTalk routing
+202	at-nbp          udp/tcp		AppleTalk name binding
+204	at-echo         udp/tcp		AppleTalk echo
+206	at-zis          udp/tcp		AppleTalk zone information
+209	qmtp            udp/tcp		Quick Mail Transfer Protocol
+210	z3950           udp/tcp		wais NISO Z39.50 database
+213	ipx             udp/tcp		IPX
+220	imap3           udp/tcp		Interactive Mail Access
+345	pawserv         udp/tcp		Perf Analysis Workbench
+346	zserv           udp/tcp		Zebra server
+347	fatserv         udp/tcp		Fatmen Server
+369	codaauth2       udp/tcp 	Coda authentication server
+371	clearcase       udp/tcp         Clearcase
+372	ulistserv       udp/tcp		UNIX Listserv
+389	ldap            udp/tcp		Lightweight Directory Access Protocol
